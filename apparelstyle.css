@@ -1,0 +1,177 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(#FFFFFF, #FFF4F4);
+}
+
+.mob-header {
+  margin-top: 31px;
+  margin-left: 32px;
+}
+
+.desk-header {
+  display: none;
+}
+
+.mob-avatar {
+  width: 100%;
+}
+
+.desk {
+  display: none;
+}
+
+.div {
+  margin-top: 25px;
+}
+
+.footcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 310px;
+  margin-top: 10%;
+  margin-bottom: 92px;
+}
+
+.we {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 42px;
+  letter-spacing: 10.83px;
+  text-align: center;
+  width: 311px;
+  height: 42px;
+  color: #CE9898;
+}
+
+.coming {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 10.83px;
+  text-align: center;
+  width: 311px;
+  height: 84px;
+  color: #423A3A;
+}
+
+.hello {
+  font-size: 14px;
+  font-family: 400;
+  line-height: 22px;
+  text-align: center;
+  width: 311px;
+  height: 88px;
+  margin-top: 16px;
+  color: #CE9898;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 50px;
+  border-radius: 28px;
+  margin-left: 275px;
+  margin-top: -51px;
+  z-index: 1;
+  box-shadow: 5px 5px 5px #CE9898;
+  background-image: linear-gradient(90deg, #F8BFBF, #EE8B8B);
+}
+
+.email {
+  width: 311px;
+  height: 48px;
+  border-radius: 28px;
+  opacity: 50%;
+  border-width: 1px;
+  border-color: #CE9898;
+  border-style: solid;
+  padding-left: 24px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(https://i.postimg.cc/8P2BB1XY/Group-9-1.png);
+    background-repeat: no-repeat;
+  }
+
+  .mob-header {
+    display: none;
+  }
+
+  .desk-header {
+    display: block;
+    margin-top: 75px;
+    margin-left: 165px;
+}
+
+  .mob-avatar {
+    display: none;
+  }
+
+  .desk {
+    display: block;
+    height: 800px;
+    width: 610px;
+  }
+
+  .desk-avatar {
+    height: 800px;
+  }
+
+  .footcont {
+    display: flex;
+    align-items: start;
+    height: 404px;
+    margin-top: 137px;
+    margin-left: 165px
+  }
+
+  .we {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 17px;
+    width: 444px;
+    height: 64px;
+    text-align: start;
+  }
+
+  .coming {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 71px;
+    letter-spacing: 17px;
+    width: 444px;
+    height: 128px;
+    text-align: start;
+  }
+
+  .hello {
+    font-size: 16px;
+    line-height: 28px;
+    width: 444px;
+    height: 84px;
+    margin-top: 32px;
+    text-align: start;
+  }
+
+  .email {
+    width: 417px;
+    height: 56px;
+    margin-top: 40px;
+  }
+
+  .arrow {
+    width: 100px;
+    height: 56px;
+    margin-top: -58px;
+    margin-left: 344px;
+  }
+}
